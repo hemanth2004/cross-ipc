@@ -1,0 +1,26 @@
+MinIPC
+
+Build from bottom to up
+
+1. Messaging Patterns
+structured methods for exchanging messages
+Shared Memory Side:
+Store, Ring Buffer, Queues
+Message Passing Side:
+store, pubsub, reqresp
+Dispenser (FIFO, LIFO)
+RPC
+
+
+2. Messaging Engine 
+encoding, decoding, processing
+Shared Memory Side: locks, semaphores
+Message Passing Side: 
+blocking/nonblocking,
+sync/async,
+XDR,
+flow control
+
+3. Transport Layer
+low level message transmission
+Shared Memory, Pipes, Sockets
